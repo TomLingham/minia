@@ -1,0 +1,12 @@
+{
+  "presets": [
+    ["@babel/preset-react", {
+      "pragma": "Minia.el"
+    }],
+    ["@babel/preset-env", {
+      "targets": {
+        "browsers": ["last 1 Chrome versions"]
+      }
+    }]
+  ]
+}

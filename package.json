@@ -1,0 +1,35 @@
+{
+  "name": "minia",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "babel --out-dir ./lib ./src",
+    "build:watch": "npm run -s build -- --watch",
+    "bundle": "webpack",
+    "dev": "webpack-dev-server -d",
+    "test": "jest"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "babel-loader": "^8.0.0-beta.0",
+    "react": "^16.2.0"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.0.0-beta.38",
+    "@babel/core": "^7.0.0-beta.38",
+    "@babel/preset-env": "^7.0.0-beta.38",
+    "@babel/preset-react": "^7.0.0-beta.38",
+    "babel-core": "^7.0.0-bridge.0",
+    "babel-jest": "^22.1.0",
+    "jest": "^22.1.4",
+    "regenerator-runtime": "^0.11.1",
+    "rollup": "^0.54.1",
+    "webpack": "^3.10.0",
+    "webpack-dev-server": "^2.11.0"
+  },
+  "jest": {
+    "rootDir": "./src"
+  }
+}
